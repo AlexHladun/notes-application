@@ -1,0 +1,20 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "This is Test app using React, NodeJS, Express, MongoDB, GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client/ &&  npm install && npm install --only=dev --no-shrinkwrap && npm start",
+    "server": "cd back/ &&  npm install && npm install --only=dev --no-shrinkwrap && npm run dev",
+    "tests": "cd client/ && npm run e2e-tests"
+  },
+  "keywords": [
+    "React",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "GraphQL"
+  ],
+  "author": "Alex",
+  "license": "ISC"
+}

@@ -1,0 +1,61 @@
+* button {
+  outline: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  height: 100vh;
+  background: white;
+  background: radial-gradient(circle, white 45%, #aee9ee 100%);
+}
+.mainContainer .titleList {
+  font-size: 50px;
+  color: #6999f3;
+  margin-bottom: 50px;
+}
+.mainContainer .noteItemList {
+  display: flex;
+  margin: 0 0 20px;
+  width: 100%;
+}
+.mainContainer .noteItemList a {
+  width: 100%;
+}
+.mainContainer .noteItemList button {
+  margin-left: 20px;
+}
+.mainContainer .backHomeButton {
+  margin: 0 0 20px;
+}
+.mainContainer .listNotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeLang {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  outline: none;
+}
+.changeLang button {
+  background-color: rgba(255, 255, 255, 0.01);
+  border: none;
+  color: #636161;
+  height: 32px;
+  width: 32px;
+  font-size: 12px;
+  margin: 5px 0;
+}
+.changeLang button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */

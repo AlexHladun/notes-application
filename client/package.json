@@ -1,0 +1,63 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "apollo-boost": "^0.4.7",
+    "bootstrap": "^4.4.1",
+    "graphql": "^14.6.0",
+    "i18n-react": "^0.7.0",
+    "i18next": "^19.3.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.12.0",
+    "react-i18next": "^11.3.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "selenium-setup": "selenium-standalone install",
+    "selenium-start": "selenium-standalone start",
+    "e2e-tests": "wdio wdio.conf.js",
+    "e2e-tests-watch": "wdio wdio.conf.js --watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.18.7",
+    "@wdio/dot-reporter": "^5.18.6",
+    "@wdio/local-runner": "^5.18.7",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.18.7",
+    "chai": "^4.2.0",
+    "chromedriver": "^80.0.1",
+    "selenium-standalone": "^6.17.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.18.7"
+  }
+}

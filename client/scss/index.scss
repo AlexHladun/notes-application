@@ -1,0 +1,62 @@
+* {
+  button {
+    outline: none;
+  }
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 45%, rgba(174, 233, 238, 1) 100%);
+  .titleList {
+    font-size: 50px;
+    color: #6999f3;
+    margin-bottom: 50px;
+  }
+  .noteItemList {
+    display: flex;
+    margin: 0 0 20px;
+    width: 100%;
+    a {
+      width: 100%;
+    }
+    button {
+      margin-left: 20px;
+    }
+  }
+  .backHomeButton {
+    margin: 0 0 20px;
+  }
+  .listNotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.changeLang {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  outline: none;
+
+  button {
+    background-color: rgba($color: #ffffff, $alpha: 0.01);
+    border: none;
+    color: rgb(99, 97, 97);
+    height: 32px;
+    width: 32px;
+    font-size: 12px;
+    margin: 5px 0;
+
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
