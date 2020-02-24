@@ -5,9 +5,11 @@ Hello, my name is Alex and that's my notes app.
 How to start app:
 
 1. Clone my repository.
-2. Use `cd back` after that `npm install` after that `npm run dev` for install and start server. Server will be started on localhost:3001. And after that open the new terminal window.
-3. Use `cd front` after that `npm install` after that `npm start` for starting client part. Client will be started on localhost:3000
+2. Use `npm run dep:server` for installing dependencies for server part
+2. Use `npm run dep:client` for installing dependencies for client part
+3. Use `npm run client` for start app on localhost:3000
+3. Use `npm run server` for start server on localhost:3001
 4. Enjoy!
-5. For start test go to `cd client` and just run `npm run tests` (REMEMBER: app must be started)
+5. For start test just run `npm run tests` (REMEMBER: app must be started)
     
 
